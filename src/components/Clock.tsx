@@ -41,6 +41,7 @@ export const Clock = () => {
   }, [])
 
   // localstrageから値を読み込むための副作用
+  // -> useLayoutEffectはDOMが更新された後、画面に実際に描画される前に実行されます
   useLayoutEffect(() => {
     const savedLocale = localStorage.getItem(KEY_LOCALE)
     if (savedLocale !== null) {
