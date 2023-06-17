@@ -9,6 +9,7 @@ import './App.css';
 import UseContextSample from './components/UseContextSample';
 import ImageUploader from './components/UseRefSample';
 import UseImperativeHandleSample from './components/UseImperativeHandleSample';
+import UseInputSample from './components/UseInputSample';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <UseContextSample/>
       <ImageUploader/>
       <UseImperativeHandleSample/>
+      <UseInputSample/>
     </div>
   );
 }
