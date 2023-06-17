@@ -7,6 +7,8 @@ import './App.css';
 // import { UseMemoSample } from './components/UseMemoSample'
 // import { Clock } from './components/Clock';
 import UseContextSample from './components/UseContextSample';
+import ImageUploader from './components/UseRefSample';
+import UseImperativeHandleSample from './components/UseImperativeHandleSample';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       {/* <UseMemoSample/> */}
       {/* <Clock/> */}
       <UseContextSample/>
+      <ImageUploader/>
+      <UseImperativeHandleSample/>
     </div>
   );
 }
