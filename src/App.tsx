@@ -4,8 +4,9 @@ import './App.css';
 // import Counter from './components/UseStateSample'
 // import ReducerCounter from './components/UseReducerSample'
 // import { Parent } from './components/Parent'
-import { UseMemoSample } from './components/UseMemoSample'
-import { Clock } from './components/Clock';
+// import { UseMemoSample } from './components/UseMemoSample'
+// import { Clock } from './components/Clock';
+import UseContextSample from './components/UseContextSample';
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <ReducerCounter initialValue={1}/>
       <div>----</div> */}
       {/* <Parent/> */}
-      <UseMemoSample/>
-      <Clock/>
+      {/* <UseMemoSample/> */}
+      {/* <Clock/> */}
+      <UseContextSample/>
     </div>
   );
 }
