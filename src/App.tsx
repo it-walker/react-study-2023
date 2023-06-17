@@ -5,6 +5,7 @@ import './App.css';
 // import ReducerCounter from './components/UseReducerSample'
 // import { Parent } from './components/Parent'
 import { UseMemoSample } from './components/UseMemoSample'
+import { Clock } from './components/Clock';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <div>----</div> */}
       {/* <Parent/> */}
       <UseMemoSample/>
+      <Clock/>
     </div>
   );
 }
